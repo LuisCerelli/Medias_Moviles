@@ -15,3 +15,19 @@ Descarga de Datos Históricos: El script descarga los datos históricos de una a
 ### Exportación a Excel: 
 - Los datos analizados se guardan en un archivo Excel para su posterior revisión.
 - Gráfica del Comportamiento: Se genera una gráfica que muestra las medias móviles y los precios de cierre, junto con las señales de compra y venta resaltadas en verde y rojo.
+  
+### Estructura del Proyecto
+- script.py: Código principal donde se realiza el análisis de precios y las recomendaciones.
+- DATA/: Carpeta donde se guardará el archivo Excel con los datos históricos.
+### Visualización del Gráfico
+- El gráfico generado muestra las siguientes líneas:
+
+  - SMA_10: Línea azul discontinua que representa la media móvil de corto plazo (10 días).
+  - SMA_40: Línea azul oscuro que representa la media móvil de largo plazo (40 días).
+  - Precio de Cierre: Línea gris que muestra los precios de cierre.
+- Señales de Compra y Venta: Marcadores verdes para compra y rojos para venta basados en el comportamiento de las medias móviles.
+### Contribuciones
+Las contribuciones y sugerencias son bienvenidas. Si encuentras algún error o quieres mejorar el proyecto, no dudes en crear un pull request o abrir un issue.
+
+### Licencia
+Este proyecto está bajo la licencia MIT.
